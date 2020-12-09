@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gtin"
+    android:orientation="vertical"
+    tools:context=".HowToPlayActivity">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Instrucciones"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Pulsa el botón jugar, al momento de que comience la partida te dará la oportunidad de elegir quién empieza primero. Una vez seleccionado quien será el primer y segundo jugador, empezará a correr el tiempo de duración del juego."
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:text="Reglas:"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text=" - Numero de jugadores: 2"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text=" - Unir 3 figuras en línea recta (vertical, horizontal o diagonal)"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text=" - En su turno el jugador escoge una casilla vacía del tablero y  coloca su figura en esa casilla."
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:layout_width="337dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text=" - No se puede: cambiar de figura ni colocarla en una casilla ya ocupada por cualquier figura."
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:paddingLeft="15dp"
+        android:text="Final del Juego:"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="-Gana el jugador que logre poner 3 figuras en una línea (vertical, horizontal o diagonal). Se tacha con una línea recta las 3 figuras que forman la línea ganadora."
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:layout_width="329dp"
+        android:layout_height="56dp"
+        android:layout_margin="5dp"
+        android:text="-Empate: en el caso de que se ocupen todas las casillas y ningún jugador haya realizado una línea recta, se declara empate y se juega una nueva partida."
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
